@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import { Poppins } from 'next/font/google'
-export const pavelt = localFont({
-  src: './Pavelt.woff2',
-  display: 'swap',
-})
 
 
 const poppins = Poppins({
@@ -15,16 +11,7 @@ const poppins = Poppins({
 
  
 
-export const ClashGrotesk
-= localFont({
-  src: './ClashGrotesk.woff2',
-  display: 'swap',
-})
 
-export const ClashDisplay= localFont({
-  src: './ClashDisplay.woff2',
-  display: 'swap',
-})
 
 
 import "./globals.css";

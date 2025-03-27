@@ -1,5 +1,21 @@
 import Image from "next/image";
-import { ClashDisplay, ClashGrotesk, pavelt } from "./layout";
+import localFont from "next/font/local";
+
+ const pavelt = localFont({
+  src: './Pavelt.woff2',
+  display: 'swap',
+})
+ const ClashGrotesk
+= localFont({
+  src: './ClashGrotesk.woff2',
+  display: 'swap',
+})
+
+ const ClashDisplay= localFont({
+  src: './ClashDisplay.woff2',
+  display: 'swap',
+})
+
 export default function Home() {
   return (
     <div className="bg-white text-black min-h-screen p-2">
