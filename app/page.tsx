@@ -44,7 +44,7 @@ export default function Home() {
         <p className="text-3xl mb-12 font-medium">
           Your Revenue, Elevated.
           <br />
-          Let's Build a Path to Success Together!
+          Let&apos;s Build a Path to Success Together!
         </p>
         <button className="bg-[#d41717] rounded-3xl hover:bg-red-700 text-white font-medium py-3 px-8 text-xl mr-4">
           Get Started &rarr;
